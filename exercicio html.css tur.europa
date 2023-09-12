@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        /* Estilos CSS */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lugares Turísticos na Europa</h1>
+    
+    <ul>
+        <li>
+            <strong>Paris, França:</strong> A Torre Eiffel, o Louvre e a Catedral de Notre-Dame.
+            <img src="C:\Users\User\Pictures\Screenshots\Captura de tela 2023-09-12 132559.png" alt="Torre Eiffel em Paris">
+        </li>
+        <li>
+            <strong>Roma, Itália:</strong> O Coliseu, o Vaticano e o Fórum Romano.
+            <img src="C:\Users\User\Pictures\Screenshots\Captura de tela 2023-09-12 132827.png" alt="Coliseu em Roma">
+        </li>
+        <li>
+            <strong>Barcelona, Espanha:</strong> A Sagrada Família, o Parc Güell e a Rambla.
+            <img src="C:\Users\User\Pictures\Screenshots\Captura de tela 2023-09-12 133146.png" alt="Sagrada Família em Barcelona">
+        </li>
+    </ul>
+
+    <h2>Vídeo de Londres, Reino Unido</h2>
+    <video controls>
+        <source src="C:\Users\User\Downloads\london_-_29162 (360p).mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <h2>Atenas, Grécia</h2>
+    <img src= "C:\Users\User\Pictures\Screenshots\Captura de tela 2023-09-12 134056.png" alt="Acrópole em Atenas">
+
+    <p>Esses são apenas alguns dos incríveis lugares turísticos que você pode visitar na Europa. Cada um deles tem sua própria história e beleza únicas.</p>
+
+    <p>Planeje sua próxima viagem à Europa e explore esses destinos emocionantes!</p>
+</body>
+</html>
