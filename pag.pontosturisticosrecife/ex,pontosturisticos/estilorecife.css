@@ -1,0 +1,42 @@
+h1{
+
+  background: large, small;
+  color: blue;
+  text-align: center;
+  padding: 10px; ;
+  
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:pink;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.ponto-turistico {
+    margin-bottom: 20px;
+}
+.saiba-mais-btn {
+    background-color:yellow;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
