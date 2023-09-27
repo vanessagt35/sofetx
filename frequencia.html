@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Frequência Escolar</title>
+     <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Frequência Escolar</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome do Aluno:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Frequência</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td><input type="number" name="segunda" min="0" max="1" required></td>
+                    </tr>
+                    <tr>
+                        <td>Terça-feira</td>
+                        <td><input type="number" name="terca" min="0" max="1" required></td>
+                    </tr>
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td><input type="number" name="quarta" min="0" max="1" required></td>
+                    </tr>
+                    <tr>
+                        <td>Quinta-feira</td>
+                        <td><input type="number" name="quinta" min="0" max="1" required></td>
+                    </tr>
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td><input type="number" name="sexta" min="0" max="1" required></td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Enviar Frequência">
+        </form>
+    </div>
+</body>
+</html>
